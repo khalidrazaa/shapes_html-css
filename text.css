@@ -1,0 +1,116 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #pd {
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+        div {
+            text-align: center;
+            text-decoration: line-through;
+        }
+        
+        h1 {
+            text-shadow: 10px 10px 1px yellow;
+            text-align: center;
+        }
+        
+        #sp1 {
+            width: 100px;
+            height: 100px;
+            background-color: violet;
+            margin: 10px 20px 20px 10px;
+        }
+        
+        #sp2 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            margin: 10px 20px 30px;
+        }
+        
+        #sp3 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 10px;
+        }
+        
+        .d1 {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border: 2px solid red;
+        }
+        
+        .d2 {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border-color: seagreen;
+            border-width: 3px;
+            border-style: dotted;
+        }
+        
+        .d3 {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border: 3px double firebrick;
+            border-radius: 50px;
+        }
+        
+        .d4 {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border: 3px dashed forestgreen;
+            border-top-left-radius: 50px;
+        }
+        
+        .d5 {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border: 3px dashed black;
+            border-bottom-left-radius: 50px;
+            border-top-left-radius: 50px;
+        }
+        
+        .d6 {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border-top-color: blue;
+            border-top-width: 3px;
+            border-top-style: double;
+            border-bottom-color: brown;
+            border-bottom-width: 6px;
+            border-bottom-style: solid;
+            border-left-color: black;
+            border-left-width: 10px;
+            border-left-style: dotted;
+            border-right-color: red;
+            border-right-width: 2px;
+            border-right-style: dashed;
+            border-top-right-radius: 70px;
+            border-bottom-left-radius: 80px;
+            border-top-left-radius: 60px;
+        }
+        
+        .d7 {
+            width: 500px;
+            height: 500px;
+            border: 2px solid red;
+            margin: 20px;
+            background-image: url(twin.jpg);
+            /*background-size: 100% 100%;*/
+            background-repeat: no-repeat;
+            /*background-repeat: repeat-x;*/
+            /*background-repeat: repeat-y;*/
+            background-position: -340px -26px;
+            /*this value can be found in inspect element of browser by scrolling the image by pixel.*/
+        }
